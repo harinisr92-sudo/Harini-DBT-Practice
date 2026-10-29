@@ -1,0 +1,7 @@
+lookup_id,lookup_type,lookup_code,lookup_value,description
+1,order_status,pending,Pending,Order has been placed but not fulfilled
+2,order_status,completed,Completed,Order has been fulfilled
+3,order_status,returned,Returned,Order was returned
+4,payment_method,credit_card,Credit Card,Payment made by credit card
+5,payment_method,coupon,Coupon,Payment made using a coupon
+6,payment_method,bank_transfer,Bank Transfer,Payment made by bank transfer

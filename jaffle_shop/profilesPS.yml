@@ -1,0 +1,12 @@
+jaffle_shop:
+  target: dev
+  outputs:
+    dev:
+      type: databricks
+      database: dbt-catalog
+      schema: source
+      host: dbc-de646fc7-c69c.cloud.databricks.com
+      http_path: /sql/1.0/warehouses/1bbd6c51dcbe6d5f
+      token: dapi1a7dd85a647620e84b8031b31b68173d
+      auth_type: token
+      threads: 16
