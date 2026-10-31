@@ -1,0 +1,1 @@
+SELECT {{ refund_rate('refund_amount', 'returned_qty', 'gross_amount') }} AS refund_rate
